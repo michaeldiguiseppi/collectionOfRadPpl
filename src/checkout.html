@@ -1,97 +1,188 @@
+<!--
+
+  .row
+    .col-md-2.col-md-2-offset
+      label
+
+-->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Checkout</title>
+<head>
+  <meta charset="utf-8">
+  <title>Checkout</title>
 
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/sandstone/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-  </head>
-  <body>
-  <div class="container">
-<form class="form-horizontal">
-  <fieldset>
-  <div class="col-lg-10 col-lg-offset-1 container">
-    <h3 class="text-left">Billing</h3>
-    </div>
-    <div class="form-group">
-      <label for="firstName" class="col-lg-2 control-label">Name</label>
-      <div class="col-lg-2">
-        <input type="text" class="form-control" id="firstName" placeholder="First">
-      </div>
-      <div class="col-lg-1">
-        <input type="text" class="form-control" id="firstName" placeholder="M.I.">
-      </div>
-      <div class="col-lg-2">
-        <input type="text" class="form-control" id="firstName" placeholder="Last">
-      </div>
-    </div>
-    <div class="form-group">
-      <div class="col-lg-10">
-        <div class="checkbox">
-          <label>
-            <input class="col-lg-offset-4" type="checkbox"> Use Billing Information for Shipping
-          </label>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/sandstone/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+  <div class="container col-lg-6">
+    <form class="form-horizontal">
+      <fieldset>
+        <div class="col-lg-10 col-lg-offset-1 container">
+          <h3 class="text-left">Billing</h3>
         </div>
-      </div>
-    </div>
-    <div class="form-group">
-      <label for="textArea" class="col-lg-2 control-label">Textarea</label>
-      <div class="col-lg-10">
-        <textarea class="form-control" rows="3" id="textArea"></textarea>
-        <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
-      </div>
-    </div>
-    <div class="form-group">
-      <label class="col-lg-2 control-label">Radios</label>
-      <div class="col-lg-10">
-        <div class="radio">
-          <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
-            Option one is this
-          </label>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-lg-2">
+                <label for="firstName" class="control-label">Name</label>
+            </div>
+            <div class="col-lg-4">
+              <input type="text" class="form-control" id="firstName" placeholder="First">
+            </div>
+            <div class="col-lg-2">
+              <input type="text" class="form-control" id="middleName" placeholder="M.I.">
+            </div>
+            <div class="col-lg-4">
+              <input type="text" class="form-control" id="lastName" placeholder="Last">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-offset-2 col-lg-10">
+              <input type="text" class="form-control" id="addressOne" placeholder="Address Line 1">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-10">
+              <input type="text" class="col-lg-offset-2 form-control" id="addressTwo" placeholder="Address Line 2">
+            </div>
+          </div>
+          <div class="row">
+          <div class="col-lg-4">
+            <input type="text" class="col-lg-offset-2 form-control" id="addressCity" placeholder="City">
+          </div>
+          <div class="col-lg-2">
+            <select name="state" class="col-lg-offset-2 form-control" placeholder="State">
+              <option value="AL">AL</option>
+              <option value="AK">AK</option>
+              <option value="AZ">AZ</option>
+              <option value="AR">AR</option>
+              <option value="CA">CA</option>
+              <option value="CO">CO</option>
+              <option value="CT">CT</option>
+              <option value="DE">DE</option>
+              <option value="DC">DC</option>
+              <option value="FL">FL</option>
+              <option value="GA">GA</option>
+              <option value="HI">HI</option>
+              <option value="ID">ID</option>
+              <option value="IL">IL</option>
+              <option value="IN">IN</option>
+              <option value="IA">IA</option>
+              <option value="KS">KS</option>
+              <option value="KY">KY</option>
+              <option value="LA">LA</option>
+              <option value="ME">ME</option>
+              <option value="MD">MD</option>
+              <option value="MA">MA</option>
+              <option value="MI">MI</option>
+              <option value="MN">MN</option>
+              <option value="MS">MS</option>
+              <option value="MO">MO</option>
+              <option value="MT">MT</option>
+              <option value="NE">NE</option>
+              <option value="NV">NV</option>
+              <option value="NH">NH</option>
+              <option value="NJ">NJ</option>
+              <option value="NM">NM</option>
+              <option value="NY">NY</option>
+              <option value="NC">NC</option>
+              <option value="ND">ND</option>
+              <option value="OH">OH</option>
+              <option value="OK">OK</option>
+              <option value="OR">OR</option>
+              <option value="PA">PA</option>
+              <option value="RI">RI</option>
+              <option value="SC">SC</option>
+              <option value="SD">SD</option>
+              <option value="TN">TN</option>
+              <option value="TX">TX</option>
+              <option value="UT">UT</option>
+              <option value="VT">VT</option>
+              <option value="VA">VA</option>
+              <option value="WA">WA</option>
+              <option value="WV">WV</option>
+              <option value="WI">WI</option>
+              <option value="WY">WY</option>
+            </select>
+          </div>
+          <div class="col-lg-2 col-lg-offset-2">
+            <input type="text" class="form-control" id="addressZip" placeholder="Zip">
+          </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-            Option two can be something else
-          </label>
+        <div class="form-group">
+          <div class="col-lg-10 col-lg-offset-3">
+            <div class="checkbox">
+              <label class="col-lg-offset-3">
+                <input type="checkbox"> Use Billing Information for Shipping
+              </label>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="form-group">
-      <label for="select" class="col-lg-2 control-label">Selects</label>
-      <div class="col-lg-10">
-        <select class="form-control" id="select">
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-        </select>
-        <br>
-        <select multiple="" class="form-control">
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-        </select>
-      </div>
-    </div>
-    <div class="form-group">
-      <div class="col-lg-10 col-lg-offset-2">
-        <button type="reset" class="btn btn-default">Cancel</button>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </div>
-    </div>
-  </fieldset>
-</form>
-</div>
 
 
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-  </body>
+        <div class="form-group">
+          <div class="col-lg-10 col-lg-offset-2">
+            <button type="reset" class="btn btn-default">Cancel</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+  <div class="container col-lg-6">
+    <form class="form-horizontal">
+      <fieldset>
+        <div class="col-lg-10 col-lg-offset-1 container">
+          <h3 class="text-left">Shipping</h3>
+        </div>
+        <div class="form-group">
+          <label for="firstName" class="col-lg-2 control-label">Name</label>
+          <div class="col-lg-4">
+            <input type="text" class="form-control" id="firstName" placeholder="First">
+          </div>
+          <div class="col-lg-2">
+            <input type="text" class="form-control" id="firstName" placeholder="M.I.">
+          </div>
+          <div class="col-lg-4">
+            <input type="text" class="form-control" id="firstName" placeholder="Last">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-lg-10">
+            <div class="checkbox">
+              <label class="col-lg-offset-3">
+                <input type="checkbox"> Use Billing Information for Shipping
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="select" class="col-lg-2 control-label">Selects</label>
+          <div class="col-lg-10">
+            <select class="form-control" id="select">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+            <br>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-lg-10 col-lg-offset-2">
+            <button type="reset" class="btn btn-default">Cancel</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
 </html>
