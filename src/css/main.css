@@ -2,15 +2,10 @@
 
 
 .slider {
-  height: 200px;
+  height: 250px;
   background-color: #999;
   border: 1px solid #222;
 }
-
-/*.signup {
-  background-color: #e9e9e9;
-  border: 1px dashed #222;
-}*/
 
 .featured {
   text-align: center;
