@@ -2,10 +2,12 @@
 <html>
 <head>
   <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/sandstone/bootstrap.min.css" rel="stylesheet" integrity="sha256-oqtj+Pkh1c3dgdH6V9qoS7qwhOy2UZfyVK0qGLa9dCc= sha512-izanB/WZ07hzSPmLkdq82m5xS7EH/qDMgl5aWR37EII+rJOi5c6ouJ3PYnrw6K+DWQcnMZ+nO1NqDr6SBKLBDg==" crossorigin="anonymous">
-  <title>Reusable Code</title>
+  <title>HEADER + FOOTER</title>
 </head>
 
 <body>
+      <!-- </header> -->
+
   <nav class="navbar navbar-default" style="margin-top:-2px;">
        <div class="container-fluid">
           <div class="navbar-header">
@@ -17,53 +19,74 @@
                 </button>
                 <a class="navbar-nav" href="index.html"><img src="reusableImg/logoSmall.png" style="padding-top: 10px; margin-right: 50px;"></a>
             </div>
-            <!-- Everything above this line is good -->
 
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#">Link</a></li>
-                </ul>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="dropdown">
+                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Products <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="products.html">Shirts</a></li>
+                    </ul>
+                 </li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right" style="margin-right: 50px;">
+                  <li><a href="checkout.html"><span class="glyphicon glyphicon-shopping-cart"></span>  Cart</a></li>
+                  <li>
+                  <a href="#" class="btn btn-default btn-xs" style="margin-left: 20px;"><span class="glyphicon glyphicon-user"></span>  Sign in</a>
+                  </li>
+                </div>
               </div>
             </div>
           </nav>
-      <!-- </header> -->
     </div>
 
+      <!-- </header> -->
 
 
 
-  <div id="your stuff"></div>
+  <div id="your stuff"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
 
-
-
+<!-- footer -->
   <div class="container-fluid">
-    <footer>
-      <div class="row">
+    <div class="row well">
+      <div class="container">
         <div class="col-lg-4">
-          <h3>Visit Us</h3>
-          <img src=""
+          <h3 class="text-warning text-center">Visit Us</h3>
+          <img src="reusableImg/location.png" class="center-block" style="border: 2px solid lightgray">
+          <p class="text-center" style="margin-top: 10px;">Rad People headquarters is on Kauai, HI.<br> <em>(pausing for your jealous rage episode)</em></p>
+        </div>
+
+        <div class="col-lg-4 text-center">
+          <h3 class="text-warning text-center">Quick Links</h3>
+          <a href="index.html"><h4><span class="glyphicon glyphicon-home" style="margin-right: 10px;"></span>Home</h4></a>
+
+          <a href="index.html"><h4><span class="glyphicon glyphicon-user" style="margin-right: 10px;"></span>Account</h4></a>
+
+          <a href="index.html"><h4><span class="glyphicon glyphicon-flash" style="margin-right: 10px;"></span>Products</h4></a>
+
+          <a href="index.html"><h4><span class="glyphicon glyphicon-shopping-cart" style="margin-right: 10px;"></span>Cart</h4></a>
+
+          <a href="index.html"><h4><span class="glyphicon glyphicon-envelope" style="margin-right: 10px;"></span>Newsletter</h4></a>
 
 
-      </div>
-    </footer>
+          <a href="index.html"><h4><span class="glyphicon glyphicon-plus" style="margin-right: 10px;"></span>Help</h4></a>
+          <br><br>
+        </div>
+
+        <div class="col-lg-4 text-center">
+          <h3 class="text-warning text-center">Rad People Info</h3>
+
+          <a href="index.html"><h4><span class="glyphicon glyphicon-certificate" style="margin-right: 10px;"></span>About</h4></a>
+
+          <a href="index.html"><h4><span class="glyphicon glyphicon-briefcase" style="margin-right: 10px;"></span>Work with Us</h4></a>
+
+          <a href="index.html"><h4><span class="glyphicon glyphicon-list-alt" style="margin-right: 10px;"></span>Terms & Conditions</h4></a>
+
+          <br><br>
+        </div>
+    </div>
   </div>
-
+<!-- footer -->
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
