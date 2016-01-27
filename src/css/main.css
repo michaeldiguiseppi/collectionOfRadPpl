@@ -1,15 +1,33 @@
 /* add custom styles */
 
-
+/* Image slider styling */
 .slider {
   height: 250px;
-  background-color: #999;
-  border: 1px solid #222;
+  background-color: black;
 }
+
+#slider {
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+#slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
 
 .featured {
   text-align: center;
 }
+
+
+
+
+
+
 
 /* Class */
 .center-block {
@@ -63,3 +81,12 @@ input:invalid:focus {
 .three {
   background-image: url('../shirtImg/radPeopleRed.png');
 }
+
+/* ************** Products *************************/
+
+.size {
+  width: 200px;
+}
+
+
+
