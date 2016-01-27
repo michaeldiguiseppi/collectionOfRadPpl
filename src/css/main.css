@@ -50,6 +50,12 @@ input:invalid:focus {
     box-shadow: 0 0 5px rgba(171, 7, 7, .6);
 }
 
+input:valid:focus {
+    outline: none;
+    border-color: rgba(68, 173, 24, 0.6);
+    box-shadow: 0 0 5px rgba(68, 173, 24, 0.6);
+}
+
 /*Homepage hover */
 
 .homepage-hover {
