@@ -47,9 +47,9 @@ $('.card-number').on('blur', function() {
     var cardNum = $('.card-number');
 
     if (!Stripe.card.validateCardNumber(cardNum.val())) {
-        cardNum.addClass('warning');
+        cardNum.addClass('creditWarning');
     } else {
-        cardNum.removeClass('warning');
+        cardNum.removeClass('creditWarning');
     }
 });
 
@@ -59,9 +59,9 @@ $('.card-expiry').on('blur', function() {
     var expiry = $('.card-expiry');
 
     if (!Stripe.card.validateExpiry(exp_month, exp_year)) {
-        expiry.addClass('warning');
+        expiry.addClass('creditWarning');
     } else {
-        expiry.removeClass('warning');
+        expiry.removeClass('creditWarning');
     };
 });
 
@@ -70,9 +70,9 @@ $('.card-cvc').on('blur', function() {
     var cvcCode = $('.card-cvc');
 
     if (!Stripe.card.validateCVC(cvcCode.val())) {
-        cvcCode.addClass('warning');
+        cvcCode.addClass('creditWarning');
     } else {
-        cvcCode.removeClass('warning');
+        cvcCode.removeClass('creditWarning');
     };
 });
 
@@ -83,6 +83,7 @@ function stripeResponseHandler(status, response) {
         $('.alert-danger').toggleClass('hidden');
     } else {
         $('.alert-danger').hide();
+
         $('.alert-success').toggleClass('hidden');
     }
 }

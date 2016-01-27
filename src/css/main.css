@@ -44,7 +44,7 @@
 
 /* Format input fields to add red border to checkout page */
 
-input:invalid:focus.warning {
+input:invalid:focus {
     outline: none;
     border-color: rgba(171, 7, 7, .6);
     box-shadow: 0 0 5px rgba(171, 7, 7, .6);
@@ -126,7 +126,7 @@ input:invalid:focus.warning {
 
 /* *************** Checkout ************************/
 
-input.warning {
+input.creditWarning {
     outline: none;
     border-color: rgba(252, 2, 2, .6);
     box-shadow: 0 0 5px rgba(252, 2, 2, .6);
