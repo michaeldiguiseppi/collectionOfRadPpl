@@ -103,16 +103,16 @@
               <input type="text" class="form-control" id="billingFirstName" placeholder="First" required>
             </div>
             <div class="col-lg-2">
-              <input type="text" class="form-control" id="billingMiddleName" placeholder="M.I.">
+              <input type="text" class="form-control" id="billingMiddleName" placeholder="M.I." >
             </div>
             <div class="col-lg-5">
-              <input type="text" class="form-control" id="billingLastName" placeholder="Last">
+              <input type="text" class="form-control" id="billingLastName" placeholder="Last" required>
             </div>
           </div>
           <br>
           <div class="row">
             <div class="col-lg-12">
-              <input type="text" class="form-control" id="billingAddressOne" placeholder="Address Line 1">
+              <input type="text" class="form-control" id="billingAddressOne" placeholder="Address Line 1" required>
             </div>
           </div>
           <br>
@@ -124,10 +124,10 @@
           <br>
           <div class="row">
             <div class="col-lg-5">
-              <input type="text" class="form-control" id="billingAddressCity" placeholder="City">
+              <input type="text" class="form-control" id="billingAddressCity" placeholder="City" required>
             </div>
             <div class="col-lg-2">
-              <select name="state" class="form-control">
+              <select name="state" class="form-control" required>
                 <option value="AL">AL</option>
                 <option value="AK">AK</option>
                 <option value="AZ">AZ</option>
@@ -182,7 +182,7 @@
               </select>
             </div>
           <div class="col-lg-5">
-            <input type="text" class="form-control" id="billingAddressZip" placeholder="Zip">
+            <input type="text" class="form-control" id="billingAddressZip" placeholder="Zip" required>
           </div>
         </div>
         </div>
@@ -209,19 +209,19 @@
         </div>
           <div class="row">
             <div class="col-lg-5">
-              <input type="text" class="form-control" id="shippingFirstName" placeholder="First">
+              <input type="text" class="form-control" id="shippingFirstName" placeholder="First" required>
             </div>
             <div class="col-lg-2">
               <input type="text" class="form-control" id="shippingMiddleName" placeholder="M.I.">
             </div>
             <div class="col-lg-5">
-              <input type="text" class="form-control" id="shippingLastName" placeholder="Last">
+              <input type="text" class="form-control" id="shippingLastName" placeholder="Last" required>
             </div>
           </div>
           <br>
           <div class="row">
             <div class="col-lg-12">
-              <input type="text" class="form-control" id="shippingAddressOne" placeholder="Address Line 1">
+              <input type="text" class="form-control" id="shippingAddressOne" placeholder="Address Line 1" required>
             </div>
           </div>
           <br>
@@ -233,10 +233,10 @@
           <br>
           <div class="row">
             <div class="col-lg-5">
-              <input type="text" class="form-control" id="shippingAddressCity" placeholder="City">
+              <input type="text" class="form-control" id="shippingAddressCity" placeholder="City" required>
             </div>
             <div class="col-lg-2">
-              <select name="state" class="form-control">
+              <select name="state" class="form-control" required>
                 <option value="AL">AL</option>
                 <option value="AK">AK</option>
                 <option value="AZ">AZ</option>
@@ -291,7 +291,7 @@
               </select>
             </div>
           <div class="col-lg-5">
-            <input type="text" class="form-control" id="shippingAddressZip" placeholder="Zip">
+            <input type="text" class="form-control" id="shippingAddressZip" placeholder="Zip" required>
           </div>
         </div>
         <br>
@@ -308,7 +308,7 @@
   <div class="row">
     <div class="form-group">
       <div class="col-lg-6 col-lg-offset-3">
-            <input type="text" class="form-control" name="card-holder-name" id="card-holder-name" placeholder="Card Holder's Name">
+            <input type="text" class="form-control" name="card-holder-name" id="card-holder-name" placeholder="Card Holder's Name" required>
       </div>
     </div>
   </div>
@@ -316,7 +316,7 @@
       <div class="row">
         <div class="form-group">
           <div class="col-lg-6 col-lg-offset-3">
-            <input type="text" class="form-control" name="card-number" id="card-number" placeholder="Debit/Credit Card Number">
+            <input type="text" class="form-control" name="card-number" id="card-number" placeholder="Debit/Credit Card Number" required>
           </div>
         </div>
       </div>
@@ -324,7 +324,7 @@
       <div class="row">
         <div class="form-group">
             <div class="col-lg-4 col-lg-offset-3">
-              <select class="form-control" name="expiry-month" id="expiry-month">
+              <select class="form-control" name="expiry-month" id="expiry-month" required>
                 <option>Expiration Month</option>
                 <option value="01">January (01)</option>
                 <option value="02">February (02)</option>
@@ -341,7 +341,7 @@
               </select>
             </div>
             <div class="col-lg-2">
-              <select class="form-control" name="expiry-year">
+              <select class="form-control" name="expiry-year" required>
                 <option>Expiration Year</option>
                 <option value="16">2016</option>
                 <option value="17">2017</option>
@@ -362,7 +362,7 @@
     <div class="row">
       <div class="form-group">
         <div class="col-lg-2 col-lg-offset-3">
-          <input type="text" class="form-control" name="cvv" id="cvv" placeholder="Security Code">
+          <input type="text" class="form-control" name="cvv" id="cvv" placeholder="Security Code" required>
         </div>
       </div>
     </div>

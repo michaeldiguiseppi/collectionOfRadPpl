@@ -23,6 +23,15 @@
   .center-block();
 }
 
+
+/* Format input fields to add red border to checkout page */
+
+input:invalid {
+    outline: none;
+    border-color: red;
+    box-shadow: 0 0 5px red;
+}
+
 /*Homepage hover */
 
 .homepage-hover {
