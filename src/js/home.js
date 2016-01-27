@@ -11,7 +11,18 @@ $('.homepage-hover').hover(function() {
 
 // Validate Email
 
+$('#NewsletterSignup').on('blur', function () {
+  if ($('#NewsletterSignup').val().split('').indexOf('@') !== -1){
+    $('#NewsletterSignup').removeClass('warning');
+    $('#NewsletterSignup').removeClass('shake');
+    $('#NewsletterSignup').addClass('success');
+  } else {
+    $('#NewsletterSignup').addClass('shake');
+    $('#NewsletterSignup').addClass('warning');
+    $('#NewsletterSignup').removeClass('success');
+  }
 
+});
 
 
 // Slider
@@ -44,7 +55,3 @@ function startSlider() {
 
 
 });
-
-
-
-
