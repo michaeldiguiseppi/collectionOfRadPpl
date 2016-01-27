@@ -63,3 +63,12 @@ input:invalid:focus {
 .three {
   background-image: url('../shirtImg/radPeopleRed.png');
 }
+
+/* ************** Products *************************/
+
+.size {
+  width: 200px;
+}
+
+
+
