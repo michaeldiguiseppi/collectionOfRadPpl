@@ -25,15 +25,15 @@
 
 .homepage-hover {
   height: 100%;
-  padding-top: 150px;
+  padding-top: 155px;
   opacity: 0;
+  background-color:rgba(0,0,0,0.2)
 }
 
 .background-image-1 {
   background-image: url('https://placecage.com/200/200');
   height: 200px;
   width: 200px;
-  border: 2px dotted #666;
   margin: 0 auto;
 }
 
