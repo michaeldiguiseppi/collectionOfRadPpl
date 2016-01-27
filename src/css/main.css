@@ -36,16 +36,30 @@ input:invalid:focus {
 
 .homepage-hover {
   height: 100%;
-  padding-top: 155px;
+/*  padding-top: 155px;*/
   opacity: 0;
-  background-color:rgba(0,0,0,0.2)
+  background-color:rgba(0,0,0,0.2);
 }
 
-.background-image-1 {
-  background-image: url('https://placecage.com/200/200');
-  height: 200px;
-  width: 200px;
+.background-image {
+  height: 461px;
+  width: 387px;
   margin: 0 auto;
 }
 
+.cartAdd {
+  position: relative;
+  bottom: 0;
+}
 
+.one {
+  background-image: url('../shirtImg/radPeopleGray.png');
+}
+
+.two{
+  background-image: url('../shirtImg/g19Blu.png');
+}
+
+.three {
+  background-image: url('../shirtImg/radPeopleRed.png');
+}
