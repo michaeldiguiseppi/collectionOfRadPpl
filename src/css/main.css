@@ -121,3 +121,19 @@ input:invalid:focus.warning {
 .size {
   width: 200px;
 }
+
+
+
+/* *************** Checkout ************************/
+
+input.warning {
+    outline: none;
+    border-color: rgba(252, 2, 2, .6);
+    box-shadow: 0 0 5px rgba(252, 2, 2, .6);
+    border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
