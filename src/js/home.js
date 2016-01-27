@@ -1,17 +1,14 @@
 $(document).on('ready', function() {
   console.log('sanity check!');
 
-$('.homepage-image').hover(function() {
-   $(this).fadeTo(1000, 0.4);
+$('.homepage-hover').hover(function() {
+   $(this).animate({opacity:'1'});
  }, function() {
-   $(this).fadeTo(1000, 1);
+   $(this).animate({opacity:'0'});
  });
 
 
-// $(html).hide().appendTo("#mycontent").fadeIn(1000);
-
 // Validate Email
-
 
 
 
