@@ -30,7 +30,6 @@ $('document').ready(function() {
 
 $('.submit').on('click', function() {
 
-
     var cardInfo = {
         number: $('.card-number').val(),
         cvc: $('.card-cvc').val(),
@@ -83,7 +82,6 @@ function stripeResponseHandler(status, response) {
         $('.alert-danger').toggleClass('hidden');
     } else {
         $('.alert-danger').hide();
-
         $('.alert-success').toggleClass('hidden');
     }
 }
