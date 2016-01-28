@@ -1,5 +1,12 @@
 /* add custom styles */
 
+/*nav*/
+
+.circleCost {
+    color: #93C54b;
+}
+
+
 /* Image slider styling */
 .slider {
   height: 250px;
@@ -18,16 +25,9 @@
     height: 100%;
 }
 
-
 .featured {
   text-align: center;
 }
-
-
-
-
-
-
 
 /* Class */
 .center-block {

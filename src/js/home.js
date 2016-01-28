@@ -25,6 +25,8 @@ $('#NewsletterSignup').on('blur', function () {
 });
 
 
+
+
 // Slider
 var sliderInt = 1;
 var sliderNext = 2;
