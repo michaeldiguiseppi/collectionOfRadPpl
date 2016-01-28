@@ -50,6 +50,40 @@ input:invalid:focus {
     box-shadow: 0 0 5px rgba(171, 7, 7, .6);
 }
 
+/* Validate Email */
+
+.success {
+    outline: none;
+    border-color: rgba(68, 173, 24, 0.6);
+    box-shadow: 0 0 5px rgba(68, 173, 24, 0.6);
+}
+
+.shake:not(:focus) {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+
 /*Homepage hover */
 
 .homepage-hover {
@@ -89,4 +123,17 @@ input:invalid:focus {
 }
 
 
+
+/* *************** Checkout ************************/
+
+input.creditWarning {
+    outline: none;
+    border-color: rgba(252, 2, 2, .6);
+    box-shadow: 0 0 5px rgba(252, 2, 2, .6);
+    border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
 
